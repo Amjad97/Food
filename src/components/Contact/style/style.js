@@ -10,7 +10,7 @@ export default () => ({
   phone: {
     color: "white",
     paddingTop: 30,
-    fontSize: '2.5vw'
+    fontSize: '2vw'
   },
   time: {
     display: "flex",
@@ -36,7 +36,6 @@ export default () => ({
   },
   buttonItem: {
     width: "10em",
-    height: "3em",
     fontSize: "1em",
     backgroundColor: "#FFAA00",
     color: "white",
@@ -49,7 +48,7 @@ export default () => ({
   accounts: {
     display: "flex",
     flexDirection: "row",
-    marginTop: 50
+    marginTop: 20
   },
   account: {
     backgroundColor: "white",
@@ -57,8 +56,8 @@ export default () => ({
     borderColor: "#707070",
     borderWidth: 2,
     marginRight: 15,
-    width: 60,
-    height: 60,
+    width: 40,
+    height: 40,
     "&:hover": {
       backgroundColor: "white"
     }

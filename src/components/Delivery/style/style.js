@@ -14,7 +14,7 @@ export default () => ({
     flexDirection: "row"
   },
   deliveryMan: {
-    height: 650
+    height: '34.5em'
   },
   deliveryContainer: {
     margin: "auto",
@@ -43,7 +43,7 @@ export default () => ({
   note2: {
     color: "white",
     fontSize: "1.5vw",
-    marginTop: "5%",
+    marginTop: "2%",
     fontFamily: "Montserrat",
     marginLeft: "10%"
   },

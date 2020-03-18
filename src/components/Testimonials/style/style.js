@@ -1,6 +1,6 @@
 export default () => ({
   container: {
-    paddingTop: "10%",
+    marginTop:'5%',
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
@@ -23,7 +23,7 @@ export default () => ({
     fontFamily: "Montserrat"
   },
   qoute: {
-    fontSize: "2vw",
+    fontSize: "1.5vw",
     lineHeight: "1.2em",
     paddingTop: "1.5em",
     fontWeight: "lighter",

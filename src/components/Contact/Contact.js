@@ -15,7 +15,7 @@ const useStyle = makeStyles(Style);
 function Contact() {
   const classes = useStyle();
   return (
-    <div style={{ display: "flex" }}>
+    <div style={{ display: "flex", height:'70vh' }}>
       <div style={{ backgroundColor: "#A80E0E", width: "50%" }}>
         <div className={classes.container}>
           <Button variant="contained" className={classes.buttonItem}>
@@ -23,7 +23,7 @@ function Contact() {
           </Button>
           <div className={classes.phone}>1-234-567-890</div>
           <div className={classes.time}>
-            <img src={clock} alt="clock" />
+            <img src={clock} alt="clock" style={{width:'3em', height:'3em'}}/>
             <div className={classes.apointment}>
               <div
                 style={{
@@ -48,7 +48,7 @@ function Contact() {
           </div>
           <img src={line} alt="line" style={{ paddingTop: 30 }} />
           <div className={classes.location}>
-            <img src={location} alt="location" />
+            <img src={location} alt="location" style={{width:'3em', height:'4em'}} />
             <div className={classes.street}>
               <div
                 style={{

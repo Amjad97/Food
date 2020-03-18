@@ -28,8 +28,6 @@ function NavBar() {
         <IconButton color="inherit" className={classes.icon}>
           <Badge
             badgeContent={2}
-            // color="secondary"
-            //className={classes.badge}
           >
             <Store />
           </Badge>

@@ -26,12 +26,12 @@ export default () => ({
   },
   mainText: {
     color: "white",
-    fontSize: "4vw",
+    fontSize: "3vw",
     lineHeight: "1em"
   },
   text: {
     color: "white",
-    fontSize: "1.5vw",
+    fontSize: "1vw",
     lineHeight: "1em",
     marginTop: "1em",
     fontWeight: 600,
@@ -45,9 +45,9 @@ export default () => ({
   number: {
     backgroundColor: "#FFAA00",
     color: "white",
-    width: "7vw",
-    height: "7vw",
-    fontSize: "3vw",
+    width: "6vw",
+    height: "6vw",
+    fontSize: "2vw",
     display: "flex",
     justifyContent: "center",
     alignItems: "center"
@@ -55,7 +55,7 @@ export default () => ({
   type: {
     color: "white",
     textAlign: "center",
-    fontSize: "2vw",
+    fontSize: "1.5vw",
     marginTop: "0.5em"
   }
 });

@@ -28,7 +28,6 @@ function Footer() {
           <img src={logo} alt="logo" />
           <div
             style={{
-              fontSize: 24,
               lineHeight: 1.2,
               marginTop: 30,
               fontFamily: "Montserrat"

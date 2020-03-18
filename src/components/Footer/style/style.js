@@ -2,7 +2,7 @@ export default () => ({
   container: {
     backgroundColor: "white",
     width: "100%",
-    height: "60vh",
+    height: "50vh",
     display: "flex",
     flexDirection: "column",
   },
@@ -30,14 +30,12 @@ export default () => ({
   firstLink: {
     marginTop: "10%",
     color: "#686868",
-    fontSize: 18,
     cursor: "pointer",
     fontFamily: "Montserrat"
   },
   link: {
     marginTop: "15%",
     color: "#686868",
-    fontSize: 18,
     cursor: "pointer",
     fontFamily: "Montserrat"
   },

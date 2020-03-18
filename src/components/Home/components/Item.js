@@ -12,7 +12,7 @@ function Item({ title, selected, setSelected, itemRef }) {
     <div
       className={classes.navBarItem}
       onClick={() => {
-        window.scrollTo(0, itemRef.current.offsetTop);
+        itemRef && window.scrollTo(0, itemRef.current.offsetTop);
         setSelected(title);
       }}
     >

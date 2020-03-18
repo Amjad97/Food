@@ -14,7 +14,7 @@ const StyleApp = () => ({
     flexDirection: " row"
   },
   navBarItem: {
-    padding: "0 20px",
+    margin: "0 10px",
     position: "relative",
     width: "20%",
     display: "flex",
@@ -32,7 +32,7 @@ const StyleApp = () => ({
   navbarSelectedItem: {
     position: "absolute",
     top: 0,
-    width: "60%",
+    width: "100%",
     height: "25%"
   },
   notSelected: {

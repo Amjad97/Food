@@ -1,7 +1,7 @@
 export default () => ({
   container: {
     paddingTop: "10%",
-    marginBottom: "10%",
+    marginBottom: "5%",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
@@ -25,14 +25,14 @@ export default () => ({
     fontFamily: 'Montserrat',
   },
   item: {
-    padding: "20px 20px 0px 20px",
+    padding: "0px 20px",
     marginRight: 20,
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
-    width: "13%",
-    height:'100%',
     cursor: "pointer",
+    height:'60%',
+    width:'13%',
     "&:hover": {
       boxShadow: "0.7px 1px 2px 1px #E0E0E0"
     }

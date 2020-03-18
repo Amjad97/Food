@@ -2,7 +2,7 @@ export default () => ({
   container: {
     backgroundColor: "#FFAA00",
     width: "100%",
-    height: "60vh",
+    height: "80vh",
     position: "relative"
   },
   bar: {
